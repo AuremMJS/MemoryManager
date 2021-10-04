@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28010.2036
+VisualStudioVersion = 15.0.28307.1267
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryManager", "MemoryManager\MemoryManager.vcxproj", "{DC4627DF-6FC7-48DF-ACFB-01CF648CC59D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryManager", "MemoryManager.vcxproj", "{DC4627DF-6FC7-48DF-ACFB-01CF648CC59D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +26,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {F41FBC45-C50A-4F28-A769-57E6CEDC376D}
+		SolutionGuid = {B969046B-690B-4BC7-A802-AF52564B8F94}
 	EndGlobalSection
 EndGlobal

@@ -91,6 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -105,6 +106,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -148,26 +150,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="DoubleStackMemoryDataStructure.h" />
-    <ClInclude Include="MemoryDataStructure.h" />
-    <ClInclude Include="MemoryDataStructureFactory.h" />
-    <ClInclude Include="MemoryDataStructureTypes.h" />
-    <ClInclude Include="MemoryManager.h" />
-    <ClInclude Include="PoolMemoryDataStructure.h" />
-    <ClInclude Include="ReferenceCount.h" />
-    <ClInclude Include="Smart_Ptr.h" />
-    <ClInclude Include="StackMemoryDataStructure.h" />
+    <ClInclude Include="Include/DoubleStackMemoryDataStructure.h" />
+    <ClInclude Include="Include/MemoryDataStructure.h" />
+    <ClInclude Include="Include/MemoryDataStructureFactory.h" />
+    <ClInclude Include="Include/MemoryDataStructureTypes.h" />
+    <ClInclude Include="Include/MemoryManager.h" />
+    <ClInclude Include="Include/PoolMemoryDataStructure.h" />
+    <ClInclude Include="Include/ReferenceCount.h" />
+    <ClInclude Include="Include/Smart_Ptr.h" />
+    <ClInclude Include="Include/StackMemoryDataStructure.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DoubleStackMemoryDataStructure.cpp" />
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="MemoryDataStructure.cpp" />
-    <ClCompile Include="MemoryDataStructureFactory.cpp" />
-    <ClCompile Include="MemoryManager.cpp" />
-    <ClCompile Include="PoolMemoryDataStructure.cpp" />
-    <ClCompile Include="ReferenceCount.cpp" />
-    <ClCompile Include="Smart_Ptr.cpp" />
-    <ClCompile Include="StackMemoryDataStructure.cpp" />
+    <ClCompile Include="Src/DoubleStackMemoryDataStructure.cpp" />
+    <ClCompile Include="Src/Main.cpp" />
+    <ClCompile Include="Src/MemoryDataStructure.cpp" />
+    <ClCompile Include="Src/MemoryDataStructureFactory.cpp" />
+    <ClCompile Include="Src/MemoryManager.cpp" />
+    <ClCompile Include="Src/PoolMemoryDataStructure.cpp" />
+    <ClCompile Include="Src/ReferenceCount.cpp" />
+    <ClCompile Include="Src/Smart_Ptr.cpp" />
+    <ClCompile Include="Src/StackMemoryDataStructure.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

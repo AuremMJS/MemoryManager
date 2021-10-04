@@ -15,60 +15,60 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MemoryDataStructureTypes.h">
+    <ClInclude Include="Include/DoubleStackMemoryDataStructure.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MemoryDataStructure.h">
+    <ClInclude Include="Include/MemoryDataStructure.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="StackMemoryDataStructure.h">
+    <ClInclude Include="Include/MemoryDataStructureFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DoubleStackMemoryDataStructure.h">
+    <ClInclude Include="Include/MemoryDataStructureTypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PoolMemoryDataStructure.h">
+    <ClInclude Include="Include/MemoryManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MemoryDataStructureFactory.h">
+    <ClInclude Include="Include/PoolMemoryDataStructure.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MemoryManager.h">
+    <ClInclude Include="Include/ReferenceCount.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ReferenceCount.h">
+    <ClInclude Include="Include/Smart_Ptr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Smart_Ptr.h">
+    <ClInclude Include="Include/StackMemoryDataStructure.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MemoryManager.cpp">
+    <ClCompile Include="Src/DoubleStackMemoryDataStructure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MemoryDataStructure.cpp">
+    <ClCompile Include="Src/Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="StackMemoryDataStructure.cpp">
+    <ClCompile Include="Src/MemoryDataStructure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DoubleStackMemoryDataStructure.cpp">
+    <ClCompile Include="Src/MemoryDataStructureFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PoolMemoryDataStructure.cpp">
+    <ClCompile Include="Src/MemoryManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MemoryDataStructureFactory.cpp">
+    <ClCompile Include="Src/PoolMemoryDataStructure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ReferenceCount.cpp">
+    <ClCompile Include="Src/ReferenceCount.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Smart_Ptr.cpp">
+    <ClCompile Include="Src/Smart_Ptr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="Src/StackMemoryDataStructure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
